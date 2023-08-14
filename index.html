@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="registration_number.css">
+
+</head>
+
+<body>
+
+
+    <!-- <h1>Registration number</h1>
+<div class="registration-number-box">
+  <div>
+    <label class="topic">Select Town:</label>
+    <input type="radio" name="town" value="" onchange="filterRegistrationNumbers()">All
+    <input type="radio" name="town" value="Town1" onchange="filterRegistrationNumbers()">Gauteng
+    <input type="radio" name="town" value="Town2" onchange="filterRegistrationNumbers()">CapeTown
+    <input type="radio" name="town" value="Town3" onchange="filterRegistrationNumbers()">Paarl
+    
+    <input type="radio" name="town" value="Town4" onchange="filterRegistrationNumbers()">George
+    <input type="radio" name="town" value="Town5" onchange="filterRegistrationNumbers()">Stellenbosch
+    -->
+  <!-- </div>
+
+  <input type="text" id="registrationNumber" class="inputText" placeholder="Enter registration number">
+  <button onclick="addRegistrationNumber()" class="addBtn">Add</button>
+
+  <ul id="registrationList" class="output"></ul>
+</div> --> 
+
+
+    <h1>Registration number</h1>
+    <div class="registration-number-box">
+        <div class="format">Format Example For Registration Number:</div>
+        <div class="example">Gauteng: KH75GP,  CapeTown: CA 12345, Durban: ND 6789</div>
+        <div class="example"></div>
+        <div class="example"></div>
+    <div>
+        <label for="townSelect" class="topic">Select Town:</label>
+        <select id="townSelect" class="SelectTown" onchange="filterRegistrationNumbers()">
+            <option value="">All</option>
+            <option value="Town1">Gauteng</option>
+            <option value="Town2">CapeTown</option>
+            <option value="Town3">Durban</option>
+           
+
+        </select>
+    </div>
+
+    <input type="text" id="registrationNumber" class="inputText" placeholder="Enter registration number">
+    <button onclick="addRegistrationNumber()" class="addBtn">Add</button>
+    <button onclick="resetRegistrationNumber()" class="resetBtn">Reset</button>
+
+    <ul id="registrationList" class="output"></ul>
+   </div> 
+
+    <script src="registration_number.js" charset="utf-8"></script>
+
+
+
+
+</body>
+
+</html>

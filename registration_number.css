@@ -1,0 +1,75 @@
+body{
+    background-color: #8B8589;
+     
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color: #333;
+}
+
+.registration-number-box {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #c4c1c1;
+    border: 2px solid #080808;
+    border-radius: 10px;
+}
+
+.format{
+    font-size: larger;
+    font-style: italic;
+    margin-bottom: 0.5em;
+}
+
+.example{
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+.inputText{
+    width: 300px;
+    height: 50px;
+    border-radius: 4em;
+    border-color: black;
+    background-color: #E5E4E2;
+    cursor: pointer;
+    margin-top: 80px;
+}
+.addBtn{
+    width: 100px;
+    height: 50px;
+    border-radius: 4em;
+    border-color: black;
+    background-color: #339952;
+    cursor: pointer;
+}
+
+.resetBtn{
+    width: 100px;
+    height: 50px;
+    border-radius: 4em;
+    border-color: black;
+    background-color: #c0170b;
+    cursor: pointer;
+}
+
+.ouput{
+    font-size: 30px;
+}
+.topic{
+    font-size: large;
+}
+.SelectTown{
+    width: 150px;
+    height: 40px;
+    border-radius: 4em;
+    border-color: black;
+}
